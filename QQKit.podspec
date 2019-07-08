@@ -6,10 +6,10 @@ Pod::Spec.new do |s|
   s.homepage = "http://www.baidu.com"
   s.license = { :type => 'MIT', :file => 'LICENSE.md' }
   s.author = { "LWPPIE" => "610310337@qq.com" }
-  s.version = '1.0.0'
+  s.version = '1.0.1'
   s.platform = :ios
   s.ios.deployment_target = '8.0'
-  s.source = { :git => "https://github.com/LWPPIE/QQKit.git", :tag => "1.0.0" }
+  s.source = { :git => "https://github.com/LWPPIE/QQKit.git", :tag => "1.0.1" }
   s.source_files = 'QQKit/*.{h,m}','QQKit/**/*.{h,m}','QQKit/**/**/*.{h,m}'
   s.resource     = 'QQKit/Resource/LSYAlertView.bundle','QQKit/Resource/LKImages.bundle'
   s.frameworks = 'UIKit'
