@@ -1,17 +1,17 @@
 
 Pod::Spec.new do |s|
 
-  s.name = 'LKKit'
-  s.summary = "LaKaTV local Kit"
-  s.homepage = "http://lakatv.com"
+  s.name = 'QQKit'
+  s.summary = "QQKit local Kit"
+  s.homepage = "http://www.baidu.com"
   s.license = { :type => 'MIT', :file => 'LICENSE.md' }
-  s.author = { "RoyLei" => "redwarly@gmail.com" }
-  s.version = '0.0.1'
+  s.author = { "Pie" => "610310337@qq.com" }
+  s.version = '1.0.0'
   s.platform = :ios
   s.ios.deployment_target = '8.0'
-  s.source = { :path => ".", :tag => "0.0.1" }
-  s.source_files = 'LKKit/*.{h,m}','LKKit/**/*.{h,m}','LKKit/**/**/*.{h,m}'
-  s.resource     = 'LKKit/Resource/LSYAlertView.bundle','LKKit/Resource/LKImages.bundle'
+  s.source = { :git => "https://gitee.com/iOSlwp/QQKit.git", :tag => "1.0.0" }
+  s.source_files = 'QQKit/*.{h,m}','QQKit/**/*.{h,m}','QQKit/**/**/*.{h,m}'
+  s.resource     = 'QQKit/Resource/LSYAlertView.bundle','QQKit/Resource/LKImages.bundle'
   s.frameworks = 'UIKit'
   
   s.dependency 'Masonry'
